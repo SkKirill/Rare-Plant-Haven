@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RarePlantHaven.API", "RarePlantHaven.API\RarePlantHaven.API.csproj", "{0DEF37BA-0777-4AC8-8A27-A6E90BA52A10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RarePlantHaven.BusinessLogic", "RarePlantHaven.BusinessLogic\RarePlantHaven.BusinessLogic.csproj", "{4D9F12C0-50B9-4EA1-8B05-CE2DE6CF444A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RarePlantHaven.BusinessLogic", "RarePlantHaven.BusinessLogic\RarePlantHaven.BusinessLogic.csproj", "{4D9F12C0-50B9-4EA1-8B05-CE2DE6CF444A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RarePlantHaven.DataAccess", "RarePlantHaven.DataAccess\RarePlantHaven.DataAccess.csproj", "{0A6AF0DB-6637-4C35-AAFC-EE1C71B0593D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RarePlantHaven.DataAccess", "RarePlantHaven.DataAccess\RarePlantHaven.DataAccess.csproj", "{0A6AF0DB-6637-4C35-AAFC-EE1C71B0593D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RarePlantHaven.MVC", "RarePlantHaven.MVC\RarePlantHaven.MVC.csproj", "{27B6348E-62C5-4E54-A7FE-EBE19BD39C1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0DEF37BA-0777-4AC8-8A27-A6E90BA52A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DEF37BA-0777-4AC8-8A27-A6E90BA52A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DEF37BA-0777-4AC8-8A27-A6E90BA52A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DEF37BA-0777-4AC8-8A27-A6E90BA52A10}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D9F12C0-50B9-4EA1-8B05-CE2DE6CF444A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D9F12C0-50B9-4EA1-8B05-CE2DE6CF444A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D9F12C0-50B9-4EA1-8B05-CE2DE6CF444A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{0A6AF0DB-6637-4C35-AAFC-EE1C71B0593D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A6AF0DB-6637-4C35-AAFC-EE1C71B0593D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A6AF0DB-6637-4C35-AAFC-EE1C71B0593D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B6348E-62C5-4E54-A7FE-EBE19BD39C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B6348E-62C5-4E54-A7FE-EBE19BD39C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B6348E-62C5-4E54-A7FE-EBE19BD39C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B6348E-62C5-4E54-A7FE-EBE19BD39C1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
